@@ -1,0 +1,18 @@
+############################################################################################
+GENERAL
+Path             ///public/MT2Top/RootFiles/PreICHEP_V03_06_00_MT2_V02-01-02Top_GenParticle/
+#__________________________________________________________________________________________
+# list of samples
+#
+
+## --------------- W ----------
+SAMPLE
+Name		WJetsToLNu_HT_400
+SName		Wtolnu
+ShapeName	WJets
+File            WJetsToLNu-HT-400ToInf-8TeV-madgraph.root
+Xsection  	25.22
+Kfact           1.
+Lumi            5097.0
+Type            mc
+Color		417

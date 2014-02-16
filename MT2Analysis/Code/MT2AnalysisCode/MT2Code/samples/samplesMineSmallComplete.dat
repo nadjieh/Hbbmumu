@@ -1,0 +1,453 @@
+############################################################################################
+GENERAL
+Path             ///public/MT2Top/RootFiles/
+#__________________________________________________________________________________________
+# list of samples
+#
+## -------- QCD --------
+SAMPLE
+Name		QCD_Pt_170to300
+SName		QCD
+ShapeName	QCD
+File            SmallTrees/QCD_Pt_300to470_SmallTree.root
+Xsection  	34138.15
+Kfact           0.92767	
+Lumi            20000.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_300to470
+SName		QCD
+ShapeName	QCD
+File            SmallTrees/QCD_Pt_300to470_SmallTree.root
+Xsection  	1759.549
+Kfact           0.92767
+Lumi            20000.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_470to600
+SName		QCD
+ShapeName	QCD
+File            SmallTrees/QCD_Pt_470to600_SmallTree.root
+Xsection  	113.8791
+Kfact           0.92767	
+Lumi            20000.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_600to800
+SName		QCD
+ShapeName	QCD
+File            SmallTrees/QCD_Pt_600to800_SmallTree.root
+Xsection  	26.9921
+Kfact           0.92767	
+Lumi            20000.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_800to1000
+SName		QCD
+ShapeName	QCD
+File            SmallTrees/QCD_Pt_800to1000_SmallTree.root
+Xsection  	3.550036
+Kfact           0.92767		
+Lumi            20000.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_1000to1400
+SName		QCD
+ShapeName	QCD
+File            SmallTrees/QCD_Pt_1000to1400_SmallTree.root
+Xsection  	0.737844
+Kfact           0.92767		
+Lumi            20000.0
+Type            mc
+Color		401
+#
+SAMPLE
+Name		QCD_Pt_1400to1800
+SName		QCD
+ShapeName	QCD
+File            SmallTrees/QCD_Pt_1400to1800_SmallTree.root
+Xsection  	0.03352235
+Kfact           0.92767	
+Lumi            20000.0
+Type            mc
+Color		401
+#
+SAMPLE
+Name		QCD_Pt_1800
+SName		QCD
+ShapeName	QCD
+File            SmallTrees/QCD_Pt_1800_SmallTree.root
+Xsection  	0.001829005
+Kfact           0.92767	
+Lumi            20000.0
+Type		mc
+Color		401
+
+# -------- electroweak --------
+SAMPLE
+Name		WJetsToLNu_HT_250To300
+SName		Wtolnu
+ShapeName	WJets
+File            SmallTrees/WJetsToLNu_HT_250To300_SmallTree.root
+Xsection  	48.01
+Kfact           1.
+Lumi            20000.0
+Type            mc
+Color		417
+
+
+SAMPLE
+Name		WJetsToLNu_HT_300To400
+SName		Wtolnu
+ShapeName	WJets
+File            SmallTrees/WJetsToLNu_HT_300To400_SmallTree.root
+Xsection  	38.3
+Kfact           1.
+Lumi            20000.0
+Type            mc
+Color		417
+
+
+SAMPLE
+Name		WJetsToLNu_HT_400
+SName		Wtolnu
+ShapeName	WJets
+File            SmallTrees/WJetsToLNu_HT_400_SmallTree.root
+Xsection  	25.22
+Kfact           1.
+Lumi            20000.0
+Type            mc
+Color		417
+
+
+SAMPLE
+Name		DYToNuNu_HT_100To200
+SName		DY
+ShapeName	ZJetsToNuNu
+File            SmallTrees/DYToNuNu_HT_100To200_SmallTree.root
+Xsection  	160.3
+Kfact           1.
+Lumi            20000.0
+Type            mc
+Color		419
+
+
+SAMPLE
+Name		DYToNuNu_HT_200To400
+SName		DY
+ShapeName	ZJetsToNuNu
+File            SmallTrees/DYToNuNu_HT_200To400_SmallTree.root
+Xsection  	41.49
+Kfact           1.
+Lumi            20000.0
+Type            mc
+Color		419
+
+SAMPLE
+Name		DYToNuNu_HT_400
+SName		DY
+ShapeName	ZJetsToNuNu
+File            SmallTrees/DYToNuNu_HT_400_SmallTree.root
+Xsection  	5.274
+Kfact           1.
+Lumi            20000.0
+Type            mc
+Color		419
+#
+## --------------- Top ----------
+SAMPLE
+Name		TTbar
+SName		Top
+ShapeName	Top
+File            SmallTrees/TTbar_SmallTree.root
+Xsection  	225.197
+Kfact           1.	
+Lumi            20000.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTop_s
+SName		Top
+ShapeName	Top
+File            SmallTrees/SingleTop_s_SmallTree.root      
+Xsection  	3.79
+Kfact           1.	
+Lumi            20000.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTopbar_s
+SName		Top
+ShapeName	Top
+File            SmallTrees/SingleTopbar_s_SmallTree.root
+Xsection  	1.76
+Kfact           1.	
+Lumi            20000.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTop_t
+SName		Top
+ShapeName	Top
+File            SmallTrees/SingleTop_t_SmallTree.root    
+Xsection  	55.53
+Kfact           1.	
+Lumi            20000.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTopbar_t
+SName		Top
+ShapeName	Top
+File            SmallTrees/SingleTopbar_t_SmallTree.root
+Xsection  	30.00
+Kfact           1.	
+Lumi            20000.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTop_tW
+SName		Top
+ShapeName	Top
+File            SmallTrees/SingleTop_tW_SmallTree.root 
+Xsection  	11.18
+Kfact           1.	
+Lumi            20000.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTopbar_tW
+SName		Top
+ShapeName	Top
+File            SmallTrees/SingleTopbar_tW_SmallTree.root
+Xsection  	11.18
+Kfact           1.	
+Lumi            20000.0
+Type            mc
+Color		600
+
+
+# ---------------- Signal ------------------------
+
+#SAMPLE
+#Name		SUSY_LM1
+#SName		LM1
+#ShapeName	Signal
+#File           SmallTrees/LM1_SUSY_sftsht_7TeV-pythia6_SmallTree.root
+#Xsection  	6.550
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM2
+#SName		LM2
+#ShapeName	Signal
+#File           SmallTrees/LM2_SUSY_sftsht_7TeV-pythia6_SmallTree.root
+#Xsection  	0.801591
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM3
+#SName		LM3
+#ShapeName	Signal
+#File           SmallTrees/LM3_SUSY_sftsht_7TeV-pythia6_SmallTree.root
+#Xsection  	4.813
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM4
+#SName		LM4
+#ShapeName	Signal
+#File           SmallTrees/LM4_SUSY_sftsht_7TeV-pythia6_SmallTree.root
+#Xsection  	2.54
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM5
+#SName		LM5
+#ShapeName	Signal
+#File           SmallTrees/LM5_SUSY_sftsht_7TeV-pythia6_SmallTree.root
+#Xsection  	0.63382
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM6
+#SName		LM6
+#ShapeName	Signal
+#File           SmallTrees/LM6_SUSY_sftsht_7TeV-pythia6_SmallTree.root
+#Xsection  	0.403
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM7
+#SName		LM7
+#ShapeName	Signal
+#File           SmallTrees/LM7_SUSY_sftsht_7TeV-pythia6_SmallTree.root
+#Xsection  	1.34
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM8
+#SName		LM8
+#ShapeName	Signal
+#File           SmallTrees/LM8_SUSY_sftsht_7TeV-pythia6_SmallTree.root
+#Xsection  	1.03
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM9
+#SName		LM9
+#ShapeName	Signal
+#File    	SmallTrees/SUSY-LM9-sftsht-8TeV-pythia6_SmallTree.root
+#Xsection  	9.29
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+
+
+#SAMPLE
+#Name		SMS_T2_250_50
+#SName		SMS
+#ShapeName	Signal
+#File    	SmallTrees/SMS_T2_250_50_SmallTree.root
+#Xsection  	5.57596
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+
+
+
+SAMPLE
+Name		SMS_T2_350_50
+SName		SMS
+ShapeName	Signal
+File    	SmallTrees/SMS_T2_350_50_SmallTree.root
+Xsection  	0.807
+Kfact           1.	
+Lumi            20000.0
+Type            susy
+Color		1
+
+
+#SAMPLE
+#Name		SMS_T2_450_50
+#SName		SMS
+#ShapeName	Signal
+#File    	SmallTrees/SMS_T2_450_50_SmallTree.root
+#Xsection  	0.169668
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+
+
+
+#SAMPLE
+#Name		SMS_T2_500_100
+#SName		SMS
+#ShapeName	Signal
+#File    	SmallTrees/SMS_T2_500_100_SmallTree.root
+#Xsection  	0.0856
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+
+
+
+#SAMPLE
+#Name		SMS
+#SName		SUSY
+#ShapeName	Signal
+#File    	SmallTrees/SMS-T2tt-Mgluino-225to1200-mLSP-0to1000-8TeV-Pythia6Z_SmallTree.root
+#Xsection  	0.807
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+
+
+
+#SAMPLE
+#Name		SMS
+#SName		SUSY
+#ShapeName	Signal
+#File    	SmallTrees/SMS-T1tttt-Mgluino-350to1200-mLSP-0to850-8TeV-Pythia6Z_SmallTree.root
+#Xsection  	10.56
+#Kfact           1.	
+#Lumi            20000.0
+#Type            susy
+#Color		1
+
+
+## --------- Data ---------------------------
+
+SAMPLE
+Name		Run2012A
+SName		HT-Data
+ShapeName	Data
+File            SmallTrees/Run2012A_SmallTree.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		Run2012B
+SName		HT-Data
+ShapeName	Data
+File            SmallTrees/Run2012B_SmallTree.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1

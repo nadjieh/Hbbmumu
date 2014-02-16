@@ -1,0 +1,459 @@
+############################################################################################
+GENERAL
+Path             ///public/MT2Top/RootFiles/
+#__________________________________________________________________________________________
+# list of samples
+#
+## -------- QCD --------
+
+
+SAMPLE
+Name		SMS150to350
+SName		SUSY
+ShapeName	Signal
+File    	NewTrees20Invfb1stTry_Scan/SMS-T2tt-mStop-150to350-mLSP-0to250-8TeV-Pythia6Z-Summer12-START52-V9-FSIM-v1-2.root
+Xsection  	0.807
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+SAMPLE
+Name		SMS375to475
+SName		SUSY
+ShapeName	Signal
+File    	NewTrees20Invfb1stTry_Scan/SMS-T2tt-mStop-375to475-mLSP-0to375-8TeV-Pythia6Z-Summer12-START52-V9-FSIM-v1-2.root
+Xsection  	0.807
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+SAMPLE
+Name		SMS500to6500to225
+SName		SUSY
+ShapeName	Signal
+File    	NewTrees20Invfb1stTry_Scan/SMS-T2tt-mStop-500to650-mLSP-0to225-8TeV-Pythia6Z-Summer12-START52-V9-FSIM-v1-2.root
+Xsection  	0.807
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+SAMPLE
+Name		SMS500to650250to550
+SName		SUSY
+ShapeName	Signal
+File    	NewTrees20Invfb1stTry_Scan/SMS-T2tt-mStop-500to650-mLSP-250to550-8TeV-Pythia6Z-Summer12-START52-V9-FSIM-v1-2.root
+Xsection  	0.807
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+SAMPLE
+Name		SMS675to8000to275
+SName		SUSY
+ShapeName	Signal
+File    	NewTrees20Invfb1stTry_Scan/SMS-T2tt-mStop-675to800-mLSP-0to275-8TeV-Pythia6Z-Summer12-START52-V9-FSIM-v1-2.root
+Xsection  	0.807
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+SAMPLE
+Name		SMS675to800
+SName		SUSY
+ShapeName	Signal
+File    	NewTrees20Invfb1stTry_Scan/SMS-T2tt-mStop-675to800-mLSP-300to700-8TeV-Pythia6Z-Summer12-START52-V9-FSIM-v1-2.root
+Xsection  	0.807
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+
+
+
+
+
+SAMPLE
+Name		QCD_Pt_120to170
+SName		QCD
+ShapeName	QCD
+File            NewTrees20Invfb1stTry/QCD-Pt-120to170-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v3_small.root
+Xsection  	156293.3 pb 
+Kfact           1.18356	
+Lumi            19600.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_170to300
+SName		QCD
+ShapeName	QCD
+File            NewTrees20Invfb1stTry/QCD-Pt-170to300-TuneZ2star-8TeV-pythia6-v2-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	34138.15
+Kfact           1.18356	
+Lumi            19600.0
+Type            mc
+Color		401
+
+
+
+
+SAMPLE
+Name		QCD_Pt_300to470
+SName		QCD
+ShapeName	QCD
+File            NewTrees20Invfb1stTry/QCD-Pt-300to470-TuneZ2star-8TeV-pythia6-v3-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	1759.549
+Kfact           1.18356
+Lumi            19600.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_470to600
+SName		QCD
+ShapeName	QCD
+File            NewTrees20Invfb1stTry/QCD-Pt-470to600-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v2_small.root
+Xsection  	113.8791
+Kfact           1.18356	
+Lumi            19600.0 
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_600to800
+SName		QCD
+ShapeName	QCD
+File            NewTrees20Invfb1stTry/QCD-Pt-600to800-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v2_small.root
+Xsection  	26.9921
+Kfact           1.18356	
+Lumi            19600.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_800to1000
+SName		QCD
+ShapeName	QCD
+File            NewTrees20Invfb1stTry/QCD-Pt-800to1000-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v2_small.root
+Xsection  	3.550036
+Kfact           1.18356		
+Lumi            19600.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_1000to1400
+SName		QCD
+ShapeName	QCD
+File            NewTrees20Invfb1stTry/QCD-Pt-1000to1400-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	0.737844
+Kfact           1.18356		
+Lumi            19600.0
+Type            mc
+Color		401
+#
+SAMPLE
+Name		QCD_Pt_1400to1800
+SName		QCD
+ShapeName	QCD
+File            NewTrees20Invfb1stTry/QCD-Pt-1400to1800-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	0.03352235
+Kfact           1.18356	
+Lumi            19600.0
+Type            mc
+Color		401
+#
+SAMPLE
+Name		QCD_Pt_1800
+SName		QCD
+ShapeName	QCD
+File            NewTrees20Invfb1stTry/QCD-Pt-1800-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	0.001829005
+Kfact           1.18356 	
+Lumi            19600.0
+Type		mc
+Color		401
+
+# -------- electroweak --------
+SAMPLE
+Name		WJetsToLNu_HT_200To250
+SName		Wtolnu
+ShapeName	WJets
+File            NewTrees20Invfb1stTry/WJetsToLNu-HT-200To250-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7C-v1-2_small.root
+Xsection  	90.27
+Kfact           1.
+Lumi            19600.0
+Type            mc
+Color		417
+
+
+
+SAMPLE
+Name		WJetsToLNu_HT_250To300
+SName		Wtolnu
+ShapeName	WJets
+File            NewTrees20Invfb1stTry/WJetsToLNu-HT-250To300-8TeV-madgraph-v2-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	48.01
+Kfact           1.
+Lumi            19600.0
+Type            mc
+Color		417
+
+
+SAMPLE
+Name		WJetsToLNu_HT_300To400
+SName		Wtolnu
+ShapeName	WJets
+File            NewTrees20Invfb1stTry/WJetsToLNu-HT-300To400-8TeV-madgraph-v2-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	38.3
+Kfact           1.
+Lumi            19600.0
+Type            mc
+Color		417
+
+
+SAMPLE
+Name		WJetsToLNu_HT_400
+SName		Wtolnu
+ShapeName	WJets
+File            NewTrees20Invfb1stTry/WJetsToLNu-HT-400ToInf-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	25.22
+Kfact           1.
+Lumi            19600.0
+Type            mc
+Color		417
+
+SAMPLE
+Name		DYToLL_M10To50
+SName		DY
+ShapeName	ZJetsToLL
+File            NewTrees20Invfb1stTry/DYJetsToLL-M-10To50filter-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	876.8
+Kfact           1.
+Lumi            19600.0
+Type            mc
+Color		419
+
+SAMPLE
+Name		DYToLL_M50
+SName		DY
+ShapeName	ZJetsToLL
+File            NewTrees20Invfb1stTry/DYJetsToLL-M-50-TuneZ2Star-8TeV-madgraph-tarball-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	3503.71
+Kfact           1.
+Lumi            19600.0
+Type            mc
+Color		419
+
+
+SAMPLE
+Name		DYToNuNu_HT_50To100
+SName		DY
+ShapeName	ZJetsToNuNu
+File            NewTrees20Invfb1stTry/ZJetsToNuNu-50-HT-100-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	381.2
+Kfact           1.
+Lumi            19600.0
+Type            mc
+Color		419
+
+
+
+SAMPLE
+Name		DYToNuNu_HT_100To200
+SName		DY
+ShapeName	ZJetsToNuNu
+File            NewTrees20Invfb1stTry/ZJetsToNuNu-100-HT-200-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7C-v1_small.root
+Xsection  	160.3
+Kfact           1.
+Lumi            19600.0
+Type            mc
+Color		419
+
+
+SAMPLE
+Name		DYToNuNu_HT_200To400
+SName		DY
+ShapeName	ZJetsToNuNu
+File            NewTrees20Invfb1stTry/ZJetsToNuNu-200-HT-400-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	41.49
+Kfact           1.
+Lumi            19600.0
+Type            mc
+Color		419
+
+SAMPLE
+Name		DYToNuNu_HT_400
+SName		DY
+ShapeName	ZJetsToNuNu
+File            NewTrees20Invfb1stTry/ZJetsToNuNu-400-HT-inf-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	5.274
+Kfact           1.
+Lumi            19600.0
+Type            mc
+Color		419
+#
+## --------------- Top ----------
+SAMPLE
+Name		TTbar
+SName		Top
+ShapeName	Top
+File            NewTrees20Invfb1stTry/TTJets-MassiveBinDECAY-TuneZ2star-8TeV-madgraph-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	234
+Kfact           1.	
+Lumi            19600.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTop_s
+SName		Top
+ShapeName	Top
+File            NewTrees20Invfb1stTry/T-s-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root   
+Xsection  	2.82
+Kfact           1.	
+Lumi            19600.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTopbar_s
+SName		Top
+ShapeName	Top
+File            NewTrees20Invfb1stTry/Tbar-s-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	1.57
+Kfact           1.	
+Lumi            19600.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTop_t
+SName		Top
+ShapeName	Top
+File            NewTrees20Invfb1stTry/T-t-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v3_small.root  
+Xsection  	47.0
+Kfact           1.	
+Lumi            19600.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTopbar_t
+SName		Top
+ShapeName	Top
+File            NewTrees20Invfb1stTry/Tbar-t-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	25.0
+Kfact           1.	
+Lumi            19600.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTop_tW
+SName		Top
+ShapeName	Top
+File            NewTrees20Invfb1stTry/T-tW-channel-DR-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root 
+Xsection  	10.7
+Kfact           1.	
+Lumi            19600.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTopbar_tW
+SName		Top
+ShapeName	Top
+File            NewTrees20Invfb1stTry/Tbar-tW-channel-DR-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+Xsection  	10.7
+Kfact           1.	
+Lumi            19600.0
+Type            mc
+Color		600
+
+
+
+
+## --------- Data ---------------------------
+
+SAMPLE
+Name		Run2012A_13Jul
+SName		MJ-Data
+ShapeName	Data
+File            NewTrees20Invfb1stTry/MultiJet-Run2012A-13Jul2012-v1_small.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		Run2012A_06Aug
+SName		MJ-Data
+ShapeName	Data
+File            NewTrees20Invfb1stTry/MultiJet-Run2012A-recover-06Aug2012-v1_small.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		Run2012B
+SName		MJ-Data
+ShapeName	Data
+File            NewTrees20Invfb1stTry/MultiJet-Run2012B-13Jul2012-v1_small.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		Run2012C_24Aug2012
+SName		MJ-Data
+ShapeName	Data
+File            NewTrees20Invfb1stTry/MultiJet-Run2012C-24Aug2012-v1_small.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012C_PromptReco
+SName		MJ-Data
+ShapeName	Data
+File            NewTrees20Invfb1stTry/MultiJet-Run2012C-PromptReco-v2_small.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012D
+SName		MJ-Data
+ShapeName	Data
+File            NewTrees20Invfb1stTry/MultiJet-Run2012D-PromptReco-v1_small.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+

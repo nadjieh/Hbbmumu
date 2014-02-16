@@ -1,0 +1,166 @@
+############################################################################################
+GENERAL
+Path             /shome/../
+#__________________________________________________________________________________________
+# list of samples
+#
+## -------- QCD --------
+# Kfact = 0.92767 (noPU), 1.11 (PU)
+# SAMPLE
+# Name		QCD_Pt_120to170
+# SName		QCD
+# ShapeName	QCD
+# File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/loose_presel/QCD-Pt-120to170-TuneZ2star-8TeV-pythia6-Summer12-PU-S7-START52-V9-v1.root
+# Xsection  	156293.3
+# Kfact           1.0	
+# Lumi            2840.0
+# Type            mc
+# Color		401
+
+SAMPLE
+Name		QCD_Pt_170to300
+SName		QCD
+ShapeName	QCD
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/loose_presel/QCD-Pt-170to300-TuneZ2star-8TeV-pythia6-Summer12-PU-S7-START52-V9-v1.root
+Xsection  	34138.15
+Kfact           0.92767
+Lumi            2840.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_300to470
+SName		QCD
+ShapeName	QCD
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/loose_presel//QCD-Pt-300to470-TuneZ2star-8TeV-pythia6-Summer12-PU-S7-START52-V9-v1-2.root
+Xsection  	1759.549
+Kfact           0.92767
+Lumi            2840.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_470to600
+SName		QCD
+ShapeName	QCD
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/loose_presel//QCD-Pt-470to600-TuneZ2star-8TeV-pythia6-Summer12-PU-S7-START52-V9-v1-2.root
+Xsection  	113.8791
+Kfact           0.92767
+Lumi            2840.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_600to800
+SName		QCD
+ShapeName	QCD
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/loose_presel//QCD-Pt-600to800-TuneZ2star-8TeV-pythia6-Summer12-PU-S7-START52-V9-v1.root
+Xsection  	26.9921
+Kfact           0.92767	
+Lumi            2840.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_800to1000
+SName		QCD
+ShapeName	QCD
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/loose_presel/QCD-Pt-800to1000-TuneZ2star-8TeV-pythia6-Summer12-PU-S7-START52-V9-v1.root
+Xsection  	3.550036
+Kfact           0.92767	
+Lumi            2840.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_1000to1400
+SName		QCD
+ShapeName	QCD
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/loose_presel/QCD-Pt-1000to1400-TuneZ2star-8TeV-pythia6-Summer12-PU-S7-START52-V9-v1.root
+Xsection  	0.737844
+Kfact           0.92767	
+Lumi            2840.0
+Type            mc
+Color		401
+#
+SAMPLE
+Name		QCD_Pt_1400to1800
+SName		QCD
+ShapeName	QCD
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/loose_presel/QCD-Pt-1400to1800-TuneZ2star-8TeV-pythia6-Summer12-PU-S7-START52-V9-v1.root
+Xsection  	0.03352235 
+Kfact           0.92767	
+Lumi            2840.0
+Type            mc
+Color		401
+#
+SAMPLE
+Name		QCD_Pt_1800
+SName		QCD
+ShapeName	QCD
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/loose_presel/QCD-Pt-1800-TuneZ2star-8TeV-pythia6-Summer12-PU-S7-START52-V9-v1-4.root
+Xsection  	0.001829005 
+Kfact           0.92767	
+Lumi            2840.0
+Type		mc
+Color		401
+
+# -------- electroweak --------
+SAMPLE
+Name		WJetsToLNu
+SName		Wtolnu
+ShapeName	WJets
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/loose_presel/WJetsToLNu-HT-400ToInf-8TeV-madgraph-Summer12-PU-S7-START52-V9-v1-2.root
+Xsection  	25.22
+Kfact           1.
+Lumi            2840.0
+Type            mc
+Color		417
+
+SAMPLE
+Name		DYToNuNu_400_infty
+SName		DY
+ShapeName	ZJetsToNuNu
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/loose_presel/ZJetsToNuNu-400-HT-inf-TuneZ2Star-8TeV-madgraph-Summer12-PU-S7-START52-V9-v1.root
+Xsection  	5.274
+Kfact           1.
+Lumi            2840.0
+Type            mc
+Color		419
+#
+## --------------- Top ----------
+SAMPLE
+Name		TTbar
+SName		Top
+ShapeName	Top
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/loose_presel/TTJets-TuneZ2star-8TeV-madgraph-tauola-Summer12-PU-S7-START52-V9-v1.root
+Xsection  	225.197
+Kfact           1.	
+Lumi            2840.0
+Type            mc
+Color		855
+
+## --------- Data ---------------------------
+SAMPLE
+Name		HT-Run2012A-PromptReco-v1-AOD
+SName		HT-Data
+ShapeName	Data
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_data_HT600_JEC_52V9/nocuts/HT-Run2012A-PromptReco-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+SAMPLE
+Name		JetHT-Run2012B-PromptReco-v1-AOD
+SName		HT-Data
+ShapeName	Data
+File            /shome/casal/MT2Analysis/MT2trees/MT2_V02-00-03/20120614_data_HT600_JEC_52V9/nocuts/JetHT-Run2012B-PromptReco-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+# 
+

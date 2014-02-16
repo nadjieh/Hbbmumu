@@ -1,0 +1,34 @@
+#!/bin/sh
+#
+# Remove a directory and all the _files_ it contains
+#
+# It won't work if it contains another directory... (i.e., it will only remove the files)
+
+
+if [ "$1" = "" ]; then
+   echo "Usage: $0 <dir>"
+   echo "       where dir is the directory to prune"
+   echo "       e.g., /store/user/susy/ntuples/data/r132440"
+   exit -1
+fi
+
+dir="srm://storage01.lcg.cscs.ch:8443/srm/managerv2?SFN=/pnfs/lcg.cscs.ch/cms/trivcat"$1
+
+files=`lcg-ls --vo cms --srm-timeout=6000 --connect-timeout=6000 -T srmv2 --nobdii $dir | awk '{print "srm://storage01.lcg.cscs.ch:8443/srm/managerv2?SFN="$1}' | tr '\n' ' '`
+echo Deleting $dir and:
+echo $files
+
+echo -n "OK? [y/n] "
+a="y"
+read a
+while true; do
+case "$a" in
+ y|Y) break;;
+ n|N) echo "No. Stopping here"; exit -1;;
+ *) echo -n "Please answer y or n: "; read a;;
+esac;
+done
+if [[ "$files" != "" ]]; then
+ lcg-del -b -D srmv2 -l $files
+fi
+srmrmdir $dir

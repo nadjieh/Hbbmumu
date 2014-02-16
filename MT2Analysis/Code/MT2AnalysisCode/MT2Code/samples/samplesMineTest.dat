@@ -1,0 +1,40 @@
+############################################################################################
+GENERAL
+Path           ///home/eskandari/CMSSW_5_3_7_patch1/src/MT2_Tau_V02-03-02/MT2Analysis/Code/MT2AnalysisCode/MT2Code/
+________________________________________________________________________________________
+# list of samples
+#
+## -------- SMS --------
+     
+SAMPLE
+Name	TStau
+SName	SUSY
+ShapeName	Signal
+File	MassTree.root
+Xsection	0.5 pb
+Kfact	1.
+Lumi	1.0
+Type	susy
+Color	410
+
+SAMPLE
+Name		QCD_HT_1000ToInf
+SName		QCD
+ShapeName	QCD
+File	MassTree.root
+Xsection  	0.5 pb
+Kfact           1.
+Lumi            1.0
+Type		mc
+Color		401
+
+#SAMPLE
+#Name		Run2012D_DoubleMuParked
+#SName		DoubleMu-Data
+#ShapeName	Data
+#File	MassTree.root
+#Xsection  	1.
+#Kfact           1.	
+#Lumi            1.
+#Type            data
+#Color		1

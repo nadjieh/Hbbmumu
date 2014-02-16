@@ -1,0 +1,30 @@
+#####
+
+
+#/MET/casal-MET-Run2012D-PromptReco-v1-AOD-3a878db341d7ddca54640fb3d584cd80/USER '-d . -i 0 -t data -m MCstrong -C FT_P_V42C_AN3 -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 40 -1
+
+#Bruno
+# /HT/casal-V03-09-01_HT-Run2012A-13Jul2012-v1_2-cf0c89484403df6c1f8cd727b2324952/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 10 -1
+# /HT/casal-V03-09-01_HT-Run2012A-recover-06Aug2012-v1_2-adf3ace0bc63c2173dedd652ad665a16/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 1 -1
+# /JetHT/casal-V03-09-01_JetHT-Run2012B-13Jul2012-v1_2-cf0c89484403df6c1f8cd727b2324952/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 40 -1
+# /JetHT/casal-V03-09-01_JetHT-Run2012C-24Aug2012-v2_2-2b0a54856f379fec4087a0d60a86179d/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 5 -1
+# /JetHT/casal-V03-09-01_JetHT-Run2012C-PromptReco-v2_3-946475fdd810ade81fcfa0d6aceff0f3/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 50 -1
+# /JetHT/casal-V03-09-01_JetHT-Run2012C-EcalRecover-11Dec2012-v1_2-6772f3afc5e65f6f69f54b5fb60c6c7b/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 1 -1
+# /JetHT/casal-V03-09-01_JetHT-Run2012D-PromptReco-v1_3-d0aafc45037b62d85097d12cc71b8258/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 60 -1
+
+#Mario
+# /MET/mmasciov-V03-09-01_MET-Run2012A-13Jul2012-v1-1d0b2626488b1b65f3aeb750c2d2b724/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 10 -1
+# /MET/mmasciov-V03-09-01_MET-Run2012A-recover-06Aug2012-v1-fe9a1f8b4c048c5600b61dd587ce0d33/USER'-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 1 -1
+# /MET/mmasciov-V03-09-01_MET-Run2012B-13Jul2012-v4-1d0b2626488b1b65f3aeb750c2d2b724/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 40 -1
+# /MET/mmasciov-V03-09-01_MET-Run2012C-24Aug2012-v1-8dbc847f43a3e22b65d00d82c810ba26/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 5 -1
+# PromptV2 '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 50 -1
+# /MET/mmasciov-V03-09-01_MET-Run2012C-EcalRecover-11Dec2012-v1-cb510e3b4070734873e347941e15fbef/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 1 -1
+# /MET/mmasciov-V03-09-01_MET-Run2012D-PromptReco-v1_2-c6f622f9c22fc49c7dabcd28e3e49bb0/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 60 -1
+
+#Hannsjorg
+# /HTMHT/haweber-V03-09-01_HTMHT-Run2012B-13Jul2012-v4-f6984842608d1a106d24d82ef403bcd8/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 40 -1
+# /HTMHT/haweber-V03-09-01_HTMHT-Run2012C-24Aug2012-v1-f80d88277d2f3b33fbd119817508225c/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 5 -1
+/HTMHT/haweber-V03-09-01_HTMHT-Run2012C-PromptReco-v2-01a8dc6f14a6e784b0932101d56bc9d3/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 50 -1
+# /HTMHT/haweber-V03-09-01_HTMHT-Run2012C-PromptReco-v2_Patch-01a8dc6f14a6e784b0932101d56bc9d3/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 2 -1
+# /HTMHT/haweber-V03-09-01_HTMHT-Run2012C-EcalRecover-11Dec2012-v1-01a8dc6f14a6e784b0932101d56bc9d3/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 2 -1
+# /HTMHT/haweber-V03-09-01_HTMHT-Run2012D-PromptReco-v1-6b95f723a1a033c44179738adef64f18/USER '-d . -i 0  -t data -m MC_HTMETmin  -j Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_JSON.txt  -e -E' 60 -1

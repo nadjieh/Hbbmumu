@@ -1,0 +1,7 @@
+ReleasePath /shome/pnef/CMSSW/CMSSW_5_2_5
+Executable /shome/pnef/MT2Analysis/Code/MT2AnalysisCode/MT2Code/RunMT2Analyzer
+NameOfConf myScript.sh
+NameOfSource configuration.cfg_mt2mc
+SrmPath SUSY/MassTrees/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/
+WorkPath /shome/pnef/MT2Analysis/Code/RunManager2012/MT2_V02-00-03/20120614_MC_HT600_JEC_52V9/
+HPName pnef

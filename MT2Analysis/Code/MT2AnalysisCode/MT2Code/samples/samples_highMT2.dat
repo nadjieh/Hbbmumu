@@ -1,0 +1,417 @@
+############################################################################################
+GENERAL
+Path             /shome/../
+#__________________________________________________________________________________________
+# list of samples
+#
+## -------- QCD --------
+
+SAMPLE
+Name		QCD_Pt_120to170
+SName		QCD
+ShapeName	QCD
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/QCD_Pt_120to170_TuneZ2_7TeV_pythia6.root
+Xsection  	1.151e+05
+Nevents   	6059289
+Kfact           1.29028001705496	
+Lumi            2140.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_170to300
+SName		QCD
+ShapeName	QCD
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/QCD_Pt_170to300_TuneZ2_7TeV_pythia6.root
+Xsection  	2.426e+04
+Nevents        	6123245
+Kfact           1.29028001705496	
+Lumi            2140.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_300to470
+SName		QCD
+ShapeName	QCD
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/QCD_Pt_300to470_TuneZ2_7TeV_pythia6.root
+Xsection  	1.168e+03
+Nevents         6432464
+Kfact           1.29028001705496	
+Lumi            2140.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_470to600
+SName		QCD
+ShapeName	QCD
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/QCD_Pt_470to600_TuneZ2_7TeV_pythia6.root
+Xsection  	7.022e+01
+Nevents        	3910175
+Kfact           1.29028001705496	
+Lumi            2140.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_600to800
+SName		QCD
+ShapeName	QCD
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/QCD_Pt_600to800_TuneZ2_7TeV_pythia6.root
+Xsection  	1.555e+01
+Nevents        	4207826
+Kfact           1.29028001705496	
+Lumi            2140.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_800to1000
+SName		QCD
+ShapeName	QCD
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/QCD_Pt_800to1000_TuneZ2_7TeV_pythia6.root
+Xsection  	1.844e+00
+Nevents        	4044766
+Kfact           1.29028001705496	
+Lumi            2140.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_1000to1400
+SName		QCD
+ShapeName	QCD
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/QCD_Pt_1000to1400_TuneZ2_7TeV_pythia6.root
+Xsection  	3.321e-01
+Nevents      	2093183
+Kfact           1.29028001705496	
+Lumi            2140.0
+Type            mc
+Color		401
+#
+SAMPLE
+Name		QCD_Pt_1400to1800
+SName		QCD
+ShapeName	QCD
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/QCD_Pt_1400to1800_TuneZ2_7TeV_pythia6.root
+Xsection  	1.087e-02
+Nevents       	2186406
+Kfact           1.29028001705496	
+Lumi            2140.0
+Type            mc
+Color		401
+#
+SAMPLE
+Name		QCD_Pt_1800
+SName		QCD
+ShapeName	QCD
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/QCD_Pt_1800_TuneZ2_7TeV_pythia6.root
+Xsection  	3.575e-04
+Nevents	        358521
+Kfact           1.29028001705496	
+Lumi            2140.0
+Type		mc
+Color		401
+
+# -------- PhotonJets --------
+
+SAMPLE
+Name		PhotonJets40-100
+SName		Photons
+ShapeName	PhotonsJets
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/GJets_TuneD6T_HT-40To100_7TeV-madgraph.root
+Xsection  	23620.
+Nevents         2217101  
+Kfact           1.	
+Lumi            2140.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		PhotonJets100-200
+SName		Photons
+ShapeName	PhotonsJets
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/GJets_TuneD6T_HT-100To200_7TeV-madgraph.root
+Xsection  	3476.
+Nevents         1065691  
+Kfact           1.	
+Lumi            2140.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		PhotonJets200
+SName		Photons
+ShapeName	PhotonsJets
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/GJets_TuneD6T_HT-200_7TeV-madgraph.root
+Xsection  	485.
+Nevents         1130750  
+Kfact           1.	
+Lumi            2140.0
+Type            mc
+Color		401
+
+# -------- electroweak --------
+SAMPLE
+Name		ZJets_M50
+SName		DY
+ShapeName	ZJetsToLL
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/DYJetsToLL_TuneZ2_M-50_7TeV-madgraph-tauola_Summer11.root
+Xsection  	3048.
+Nevents         34940743
+Kfact           1.	
+Lumi            2140.0
+Type            mc
+Color		419
+
+SAMPLE
+Name		DYToNuNu
+SName		DY
+ShapeName	ZJetsToNuNu
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/ZJetsToNuNu_50_HT_100_7TeV-madgraph_Summer11.root
+Xsection  	309.5
+Nevents         8163840
+Kfact           1.28
+Lumi            2140.0
+Type            mc
+Color		419
+
+SAMPLE
+Name		DYToNuNu
+SName		DY
+ShapeName	ZJetsToNuNu
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/ZJetsToNuNu_100_HT_100_7TeV-madgraph_Summer11.root
+Xsection  	125.2
+Nevents         3926114
+Kfact           1.28
+Lumi            2140.0
+Type            mc
+Color		419
+
+SAMPLE
+Name		DYToNuNu
+SName		DY
+ShapeName	ZJetsToNuNu
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/ZJetsToNuNu_200_HT_inf_7TeV-madgraph_Summer11.root
+Xsection  	32.92
+Nevents         3067017
+Kfact           1.28
+Lumi            2140.0
+Type            mc
+Color		419
+
+SAMPLE
+Name		VVto4l
+SName		VV
+ShapeName	VVJets
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/VVJetsTo4L_TuneD6T_7TeV-madgraph-tauola.root	
+Xsection  	4.8
+Nevents         963356 
+Kfact           1.	
+Lumi            2140.0
+Type            mc
+Color		420
+
+# --------------- Top ----------
+
+# ttbar inclusive
+SAMPLE
+Name		TTbar
+SName		Top
+ShapeName	Top
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/TTJets_TuneZ2_7TeV-madgraph-tauola_Summer11_2.root
+Xsection  	157.5
+Nevents         3701872
+Kfact           1.	
+Lumi            2140.0
+Type            mc
+Color		600
+
+# single Top s-Channel (pp->tb, t->blnu)
+SAMPLE
+Name		SingleTop_sChannel
+SName		Top
+ShapeName	Top
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/TToBLNu_TuneZ2_s-channel_7TeV-madgraph.root
+Xsection  	1.49
+Nevents         494967 
+Kfact           1.	
+Lumi            2140.0
+Type            mc
+Color		600
+
+# single Top t-Channel (pp->tb, t->blnu)
+SAMPLE
+Name		SingleTop_tChannel
+SName		Top
+ShapeName	Top
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/TToBLNu_TuneZ2_t-channel_7TeV-madgraph.root
+Xsection  	20.54
+Nevents         474380 
+Kfact           1.	
+Lumi            2140.0
+Type            mc
+Color		600
+
+# single Top tW-Channel (inclusive)
+SAMPLE
+Name		SingleTop_tWChannel
+SName		Top
+ShapeName	Top
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/TToBLNu_TuneZ2_tW-channel_7TeV-madgraph.root
+Xsection  	10.6
+Nevents         489417 
+Kfact           1.	
+Lumi            2140.0
+Type            mc
+Color		600
+
+# ---------------- Signal ------------------------
+
+#SAMPLE
+#Name		SUSY_LM1
+#SName		LM1
+#ShapeName	Signal
+#File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/LM1_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	6.550
+#Nevents         219190. 
+#Kfact           1.	
+#Lumi            2140.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM2
+#SName		LM2
+#ShapeName	Signal
+#File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/LM2_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	0.801591
+#Nevents         220000
+#Kfact           1.	
+#Lumi            2140.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM3
+#SName		LM3
+#ShapeName	Signal
+#File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/LM3_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	4.813
+#Nevents         220000
+#Kfact           1.	
+#Lumi            2140.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM4
+#SName		LM4
+#ShapeName	Signal
+#File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/LM4_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	2.54
+#Nevents         218380
+#Kfact           1.	
+#Lumi            2140.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM5
+#SName		LM5
+#ShapeName	Signal
+#File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/LM5_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	0.63382
+#Nevents         220000
+#Kfact           1.	
+#Lumi            2140.0
+#Type            susy
+#Color		1
+#
+SAMPLE
+Name		SUSY_LM6
+SName		LM6
+ShapeName	Signal
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/LM6_SUSY_sftsht_7TeV-pythia6.root
+Xsection  	0.403
+Nevents         220000
+Kfact           1.	
+Lumi            2140.0
+Type            susy
+Color		1
+
+#SAMPLE
+#Name		SUSY_LM7
+#SName		LM7
+#ShapeName	Signal
+#File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/LM7_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	1.34
+#Nevents         217800
+#Kfact           1.	
+#Lumi            2140.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM8
+#SName		LM8
+#ShapeName	Signal
+#File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/LM8_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	1.03
+#Nevents         217800
+#Kfact           1.	
+#Lumi            2140.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM9
+#SName		LM9
+#ShapeName	Signal
+#File    	/shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/LM9_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	10.56
+#Nevents         220000
+#Kfact           1.	
+#Lumi            2140.0
+#Type            susy
+#Color		1
+
+## --------- Data ---------------------------
+
+SAMPLE
+Name		HT-Run2011A-May10ReReco-v1-AOD
+SName		HT-Data
+ShapeName	Data
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/HT-Run2011A-May10ReReco-v1-AOD.root
+Xsection  	1.
+Nevents         1. 
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+SAMPLE
+Name		HT-Run2011A-PromptReco-v4-AOD_4
+SName		HT-Data
+ShapeName	Data
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/HT-Run2011A-PromptReco-v4-AOD_4.root
+Xsection  	1.
+Nevents         1. 
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		HT-Run2011A-05Aug2011-v1-AOD
+SName		HT-Data
+ShapeName	Data
+File            /shome/pnef/MT2Analysis/MT2trees/MT2_V01-01-01/20111004_MC_HT400_data_nocuts/skimmed/HT-Run2011A-05Aug2011-v1-AOD.root
+Xsection  	1.
+Nevents         1. 
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1

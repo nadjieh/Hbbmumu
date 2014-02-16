@@ -1,0 +1,40 @@
+# To create the directory for the first time
+git clone --branch master https://github.com/paktinat/STau MT2_Tau_V02-03-02
+
+#To create an environment to perform the developments on the structure of the MT2Tree, pay attention to the _Dev at the end of the new created directory 
+git clone --branch dev https://github.com/paktinat/STau MT2_Tau_V02-03-02_Dev
+
+# To update an existing directory
+git pull
+
+# To add a new file
+git add FILE_NAME
+
+#When you are done with the changes
+git commit -a
+
+#To send the modifications to github
+git push -u origin master
+
+
+#For more information about fork, which we don't need any longer have a look at https://help.github.com/articles/fork-a-repo
+
+##Working with MT2Analysis Code
+#Modify your code and then run "make"
+#If you add a new .hh file, you need to run "make deps" before "make"
+#To test your code run the following command:
+
+./RunMT2Analyzer -d . -i 4 -t mc -m MC -e -E /dataLOCAL/MT2Top/MT2_V02-03-02/MT2Analysis/Code/MT2AnalysisCode/MT2Code/V03-09-01_TTJets_MassiveBinDECAY_TuneZ2star_8TeV-madgraph-tauola_NTupleProducer_53X_MC_492_1_TCA.root     
+
+
+#Or this one which has more detail
+
+./RunMT2Analyzer -d . -i 4 -t mc -m MC -s MC2012 -p Cert_8TeV_13Jul_06Aug_24Aug_11Dec_ReReco_and_Rest_PromptReco_Collisions12_PU_60bins_true.root -P MC2012PU_S10_60bins.root  -b BEfficiencies_ge2jets_CSVM_HT750andMET30_or_HT450andMET200_MinDPhi4_newTTbar.root -u TauEfficiencies_LooseIsoLooseEleTightMuo_fromTauPOGplots.root -e -E /dataLOCAL/MT2Top/MT2_V02-03-02/MT2Analysis/Code/MT2AnalysisCode/MT2Code/V03-09-01_TTJets_MassiveBinDECAY_TuneZ2star_8TeV-madgraph-tauola_NTupleProducer_53X_MC_492_1_TCA.root
+
+
+
+#To run on signal samples
+./RunMT2Analyzer -d . -i 4 -t mc -m MC -e -E /dataLOCAL/MT2Tau/RootFiles/TChipChimSTauSnu_NTupleProducer_53X_MC/TChipChimSTauSnu_250_0_NTupleProducer_53X_MC_9.root
+
+#Or
+./RunMT2Analyzer -d . -i 4 -t mc -m MC -e -E /dataLOCAL/MT2Tau/RootFiles/TStauStau_NTupleProducer_53X_MC/NTupleProducer_53X_MC1_TStauStau_250_1.root

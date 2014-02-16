@@ -1,0 +1,79 @@
+############################################################################################
+GENERAL
+Path             ///dataLOCAL/MT2Top/RootFiles/
+#__________________________________________________________________________________________
+# list of samples
+#
+#
+
+SAMPLE
+Name		Run2012C-p1
+SName		MJ-Data
+ShapeName	Data
+File            ParkedSmearedJetMETNewBTag/MultiJet1Parked-Run2012C-part1-05Nov2012-v2.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		Run2012C-p2f
+SName		MJ-Data
+ShapeName	Data
+File            ParkedSmearedJetMETNewBTag/MultiJet1Parked-Run2012C-part2-05Nov2012-v2-FirstHalf.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012C-p2s
+SName		MJ-Data
+ShapeName	Data
+File            ParkedSmearedJetMETNewBTag/MultiJet1Parked-Run2012C-part2-05Nov2012-v2-SecondHalf.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012D-p1f
+SName		MJ-Data
+ShapeName	Data
+File            ParkedSmearedJetMETNewBTag/MultiJet1Parked-Run2012D-part1-10Dec2012-v1-FirstHalf.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		Run2012D-p1s
+SName		MJ-Data
+ShapeName	Data
+File            ParkedSmearedJetMETNewBTag/MultiJet1Parked-Run2012D-part1-10Dec2012-v1-SecondHalf.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		Run2012D-p2
+SName		MJ-Data
+ShapeName	Data
+File            ParkedSmearedJetMETNewBTag/MultiJet1Parked-Run2012D-part2-17Jan2013-v1.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+

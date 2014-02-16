@@ -1,0 +1,19 @@
+############################################################################################
+GENERAL
+Path             ///public/MT2Top/RootFiles/PreICHEP_V03_06_00_MT2_V02-01-02Top_GenParticle/
+#__________________________________________________________________________________________
+# list of samples
+#
+
+## --------------- Top ----------
+SAMPLE
+Name		TTbar
+SName		Top
+ShapeName	Top
+File            TTJets-TuneZ2star-8TeV-madgraph-tauola.root
+Xsection  	225.197
+Kfact           1.	
+Lumi            5097.0
+Type            mc
+Color		600
+

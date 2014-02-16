@@ -1,0 +1,405 @@
+############################################################################################
+GENERAL
+Path             ///public/MT2Top/RootFiles/
+#__________________________________________________________________________________________
+# list of samples
+#
+## -------- QCD --------
+SAMPLE
+Name		QCD_Pt_170to300
+SName		QCD
+ShapeName	QCD
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/QCD-Pt-170to300-TuneZ2star-8TeV-pythia6.root
+Xsection  	34138.15
+Kfact           0.92767	
+Lumi            5097.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_300to470
+SName		QCD
+ShapeName	QCD
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/QCD-Pt-300to470-TuneZ2star-8TeV-pythia6.root
+Xsection  	1759.549
+Kfact           0.92767
+Lumi            5097.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_470to600
+SName		QCD
+ShapeName	QCD
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/QCD-Pt-470to600-TuneZ2star-8TeV-pythia6.root
+Xsection  	113.8791
+Kfact           0.92767	
+Lumi            5097.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_600to800
+SName		QCD
+ShapeName	QCD
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/QCD-Pt-600to800-TuneZ2star-8TeV-pythia6.root
+Xsection  	26.9921
+Kfact           0.92767	
+Lumi            5097.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_800to1000
+SName		QCD
+ShapeName	QCD
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/QCD-Pt-800to1000-TuneZ2star-8TeV-pythia6.root
+Xsection  	3.550036
+Kfact           0.92767		
+Lumi            5097.0
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD_Pt_1000to1400
+SName		QCD
+ShapeName	QCD
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/QCD-Pt-1000to1400-TuneZ2star-8TeV-pythia6.root
+Xsection  	0.737844
+Kfact           0.92767		
+Lumi            5097.0
+Type            mc
+Color		401
+#
+SAMPLE
+Name		QCD_Pt_1400to1800
+SName		QCD
+ShapeName	QCD
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/QCD-Pt-1400to1800-TuneZ2star-8TeV-pythia6.root
+Xsection  	0.03352235
+Kfact           0.92767	
+Lumi            5097.0
+Type            mc
+Color		401
+#
+SAMPLE
+Name		QCD_Pt_1800
+SName		QCD
+ShapeName	QCD
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/QCD-Pt-1800-TuneZ2star-8TeV-pythia6.root
+Xsection  	0.001829005
+Kfact           0.92767	
+Lumi            5097.0
+Type		mc
+Color		401
+
+# -------- electroweak --------
+SAMPLE
+Name		WJetsToLNu_HT_250To300
+SName		Wtolnu
+ShapeName	WJets
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/WJetsToLNu-HT-250To300-8TeV-madgraph.root
+Xsection  	48.01
+Kfact           1.
+Lumi            5097.0
+Type            mc
+Color		417
+
+
+SAMPLE
+Name		WJetsToLNu_HT_300To400
+SName		Wtolnu
+ShapeName	WJets
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/WJetsToLNu-HT-300To400-8TeV-madgraph.root
+Xsection  	38.3
+Kfact           1.
+Lumi            5097.0
+Type            mc
+Color		417
+
+
+SAMPLE
+Name		WJetsToLNu_HT_400
+SName		Wtolnu
+ShapeName	WJets
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/WJetsToLNu-HT-400ToInf-8TeV-madgraph.root
+Xsection  	25.22
+Kfact           1.
+Lumi            5097.0
+Type            mc
+Color		417
+
+
+SAMPLE
+Name		DYToNuNu_HT_100To200
+SName		DY
+ShapeName	ZJetsToNuNu
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/ZJetsToNuNu-100-HT-200-TuneZ2Star-8TeV-madgraph.root
+Xsection  	160.3
+Kfact           1.
+Lumi            5097.0
+Type            mc
+Color		419
+
+
+SAMPLE
+Name		DYToNuNu_HT_200To400
+SName		DY
+ShapeName	ZJetsToNuNu
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/ZJetsToNuNu-200-HT-400-TuneZ2Star-8TeV-madgraph.root
+Xsection  	41.49
+Kfact           1.
+Lumi            5097.0
+Type            mc
+Color		419
+
+SAMPLE
+Name		DYToNuNu_HT_400
+SName		DY
+ShapeName	ZJetsToNuNu
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/ZJetsToNuNu-400-HT-inf-TuneZ2Star-8TeV-madgraph.root
+Xsection  	5.274
+Kfact           1.
+Lumi            5097.0
+Type            mc
+Color		419
+#
+## --------------- Top ----------
+SAMPLE
+Name		TTbar
+SName		Top
+ShapeName	Top
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/TTJets-TuneZ2star-8TeV-madgraph-tauola.root
+Xsection  	225.197
+Kfact           1.	
+Lumi            5097.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTop_s
+SName		Top
+ShapeName	Top
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/T-s-channel-TuneZ2star-8TeV-powheg-tauola.root      
+Xsection  	3.79
+Kfact           1.	
+Lumi            5097.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTopbar_s
+SName		Top
+ShapeName	Top
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/Tbar-s-channel-TuneZ2star-8TeV-powheg-tauola.root
+Xsection  	1.76
+Kfact           1.	
+Lumi            5097.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTop_t
+SName		Top
+ShapeName	Top
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/T-t-channel-TuneZ2star-8TeV-powheg-tauola.root    
+Xsection  	55.53
+Kfact           1.	
+Lumi            5097.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTopbar_t
+SName		Top
+ShapeName	Top
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/Tbar-t-channel-TuneZ2star-8TeV-powheg-tauola.root
+Xsection  	30.00
+Kfact           1.	
+Lumi            5097.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTop_tW
+SName		Top
+ShapeName	Top
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/T-tW-channel-DR-TuneZ2star-8TeV-powheg-tauola.root 
+Xsection  	11.18
+Kfact           1.	
+Lumi            5097.0
+Type            mc
+Color		600
+
+
+SAMPLE
+Name		SingleTopbar_tW
+SName		Top
+ShapeName	Top
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/Tbar-tW-channel-DR-TuneZ2star-8TeV-powheg-tauola.root
+Xsection  	11.18
+Kfact           1.	
+Lumi            5097.0
+Type            mc
+Color		600
+
+
+# ---------------- Signal ------------------------
+
+SAMPLE
+Name		SMS_T2_250_50
+SName		T2_250_50
+ShapeName	Signal
+File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop_2/SMS-T2tt-MStop-250-mLSP-50.root
+Xsection  	5.57596
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+SAMPLE
+Name		SMS_T2_350_50
+SName		T2_350_50
+ShapeName	Signal
+File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop_2/SMS-T2tt-MStop-350-mLSP-50.root
+Xsection  	0.807
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+
+SAMPLE
+Name		SMS_T2_450_50
+SName		T2_450_50
+ShapeName	Signal
+File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop_2/SMS-T2tt-MStop-450-mLSP-50.root
+Xsection  	0.169668
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+SAMPLE
+Name		SMS_T2_450_250
+SName		T2_450_250
+ShapeName	Signal
+File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop_2/SMS-T2tt-MStop-450-mLSP-250.root
+Xsection  	0.169668
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+SAMPLE
+Name		SMS_T2_550_50
+SName		T2_550_50
+ShapeName	Signal
+File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop_2/SMS-T2tt-MStop-550-mLSP-50.root
+Xsection  	0.0452067
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+SAMPLE
+Name		SMS_T2_550_350
+SName		T2_550_350
+ShapeName	Signal
+File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop_2/SMS-T2tt-MStop-550-mLSP-350.root
+Xsection  	0.0452067
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+
+SAMPLE
+Name		SMS_T2_500_100
+SName		T2_500_100
+ShapeName	Signal
+File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop_2/SMS-T2tt-MStop-500-mLSP-100.root
+Xsection  	0.0856
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+SAMPLE
+Name		SMS_T2_750_100
+SName		T2_750_100
+ShapeName	Signal
+File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop_2/SMS-T2tt-MStop-750-mLSP-100.root
+Xsection  	0.0048
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+SAMPLE
+Name		SMS_T2_750_400
+SName		T2_750_400
+ShapeName	Signal
+File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop_2/SMS-T2tt-MStop-750-mLSP-400.root
+Xsection  	0.0048
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+
+
+#SAMPLE
+#Name		SMS
+#SName		SUSY
+#ShapeName	Signal
+#File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop_2/SMS-T2tt-Mgluino-225to1200-mLSP-0to1000-8TeV-Pythia6Z.root
+#Xsection  	0.807
+#Kfact           1.	
+#Lumi            5097.0
+#Type            susy
+#Color		1
+
+
+
+#SAMPLE
+#Name		SMS
+#SName		SUSY
+#ShapeName	Signal
+#File    	SMS-T1tttt-Mgluino-350to1200-mLSP-0to850-8TeV-Pythia6Z.root
+#Xsection  	10.56
+#Kfact           1.	
+#Lumi            5097.0
+#Type            susy
+#Color		1
+
+
+## --------- Data ---------------------------
+
+SAMPLE
+Name		Run2012A
+SName		MJ-Data
+ShapeName	Data
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/MultiJet-Run2012A-PromptReco-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		Run2012B
+SName		MJ-Data
+ShapeName	Data
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/MultiJet-Run2012B-PromptReco-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1

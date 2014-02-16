@@ -1,0 +1,172 @@
+############################################################################################
+GENERAL
+Path             ///dataLOCAL/MT2Top/RootFiles/
+#__________________________________________________________________________________________
+# list of samples
+#
+
+## -------- QCD --------
+
+SAMPLE
+Name		QCD-HT-100To250
+SName		QCD
+ShapeName	QCD
+File            NewTreesSmearedJetMETNewBTag/QCD-HT-100To250-TuneZ2star-8TeV-madgraph-pythia-Summer12-DR53X-PU-S10-START53-V7A-v1_parkedsmallb.root
+Xsection  	10360000 
+Kfact           1.623	
+Lumi            18341
+Type            mc
+Color		401
+
+
+
+SAMPLE
+Name		QCD-HT-250To500
+SName		QCD
+ShapeName	QCD
+File            NewTreesSmearedJetMETNewBTag/QCD-HT-250To500-TuneZ2star-8TeV-madgraph-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1-2_parkedsmallb.root
+Xsection  	276000
+Kfact           1.623	
+Lumi            18341
+Type            mc
+Color		401
+
+
+
+SAMPLE
+Name		QCD-HT-500To1000
+SName		QCD
+ShapeName	QCD
+File            NewTreesSmearedJetMETNewBTag/QCD-HT-500To1000-TuneZ2star-8TeV-madgraph-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1-2_parkedsmallb.root
+Xsection  	8426
+Kfact           1.623
+Lumi            18341
+Type            mc
+Color		401
+
+SAMPLE
+Name		QCD-HT-1000ToInf
+SName		QCD
+ShapeName	QCD
+File            NewTreesSmearedJetMETNewBTag/QCD-HT-1000ToInf-TuneZ2star-8TeV-madgraph-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1-2_parkedsmallb.root
+Xsection  	204
+Kfact           1.623	
+Lumi            18341 
+Type            mc
+Color		401
+
+
+#
+## --------------- Top ----------
+SAMPLE
+Name		TTbar
+SName		Top
+ShapeName	Top
+File            NewTreesSmearedJetMETNewBTag/TTGJets-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V19-v1_parkedsmallb.root
+Xsection  	1.44
+Kfact           1.0	
+Lumi            18341
+Type            mc
+Color		600
+
+SAMPLE
+Name		TTbar
+SName		Top
+ShapeName	Top
+File            NewTreesSmearedJetMETNewBTag/TTH-Inclusive-M-125-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1_parkedsmallb.root
+Xsection  	1.0
+Kfact           1.0	
+Lumi            18341
+Type            mc
+Color		600
+
+SAMPLE
+Name		TTbar
+SName		Top
+ShapeName	Top
+File            NewTreesSmearedJetMETNewBTag/TTWJets-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1_parkedsmallb.root
+Xsection  	0.232 
+Kfact           1.0	
+Lumi            18341
+Type            mc
+Color		600
+
+SAMPLE
+Name		TTbar
+SName		Top
+ShapeName	Top
+File            NewTreesSmearedJetMETNewBTag/TTWWJets-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1_parkedsmallb.root
+Xsection  	0.002037
+Kfact           1.0	
+Lumi            18341
+Type            mc
+Color		600
+
+SAMPLE
+Name		TTbar
+SName		Top
+ShapeName	Top
+File            NewTreesSmearedJetMETNewBTag/TTZJets-8TeV-madgraph-v2-Summer12-DR53X-PU-S10-START53-V7A-v1_parkedsmallb.root
+Xsection  	0.2057 
+Kfact           1.0	
+Lumi            18341
+Type            mc
+Color		600
+
+
+####################################### Data-RemainingRereco#################################
+
+SAMPLE
+Name		Run2012B-RemainingRereco
+SName		MJ-Data
+ShapeName	Data
+File            ParkedSmearedJetMETNewBTagReRecoRemaining/MultiJet1Parked-Run2012B-05Nov2012-v2-RemainingRereco_parkedsmallb.root
+Xsection  	1.0
+Kfact           1.0	
+Lumi            1.0
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012C-RemainingRereco
+SName		MJ-Data
+ShapeName	Data
+File            ParkedSmearedJetMETNewBTagReRecoRemaining/MultiJet1Parked-Run2012C-part2-05Nov2012-v2-RemainingRereco_parkedsmallb.root
+Xsection  	1.0
+Kfact           1.0	
+Lumi            1.0
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012D-RemainingRereco
+SName		MJ-Data
+ShapeName	Data
+File            ParkedSmearedJetMETNewBTagReRecoRemaining/MultiJet1Parked-Run2012D-part1-10Dec2012-v1-RemainingRereco_parkedsmallb.root
+Xsection  	1.0
+Kfact           1.0	
+Lumi            1.0
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012D-RemainingRereco
+SName		MJ-Data
+ShapeName	Data
+File           ParkedSmearedJetMETNewBTagReRecoRemaining/MultiJet1Parked-Run2012D-part2-17Jan2013-v1-RemainingRereco_parkedsmallb.root
+Xsection  	1.0
+Kfact           1.0	
+Lumi            1.0
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012D-PixelRecover
+SName		MJ-Data
+ShapeName	Data
+File            ParkedSmearedJetMETNewBTagReRecoRemaining/MultiJet1Parked-Run2012D-part2-PixelRecover-17Jan2013-v1_parkedsmallb.root
+Xsection  	1.0
+Kfact           1.0	
+Lumi            1.0
+Type            data
+Color		1

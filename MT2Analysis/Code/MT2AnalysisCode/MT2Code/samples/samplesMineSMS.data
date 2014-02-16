@@ -1,0 +1,183 @@
+############################################################################################
+GENERAL
+Path             ///public/MT2Top/RootFiles/
+#__________________________________________________________________________________________
+# list of samples
+#
+## -------- QCD --------
+
+## --------------- Top ----------
+SAMPLE
+Name		TTbar
+SName		Top
+ShapeName	Top
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/TTJets-TuneZ2star-8TeV-madgraph-tauola.root
+Xsection  	225.197
+Kfact           1.	
+Lumi            5097.0
+Type            mc
+Color		600
+
+
+
+# ---------------- Signal ------------------------
+
+#SAMPLE
+#Name		SUSY_LM1
+#SName		LM1
+#ShapeName	Signal
+#File           LM1_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	6.550
+#Kfact           1.	
+#Lumi            5097.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM2
+#SName		LM2
+#ShapeName	Signal
+#File           LM2_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	0.801591
+#Kfact           1.	
+#Lumi            5097.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM3
+#SName		LM3
+#ShapeName	Signal
+#File           LM3_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	4.813
+#Kfact           1.	
+#Lumi            5097.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM4
+#SName		LM4
+#ShapeName	Signal
+#File           LM4_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	2.54
+#Kfact           1.	
+#Lumi            5097.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM5
+#SName		LM5
+#ShapeName	Signal
+#File           LM5_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	0.63382
+#Kfact           1.	
+#Lumi            5097.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM6
+#SName		LM6
+#ShapeName	Signal
+#File           LM6_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	0.403
+#Kfact           1.	
+#Lumi            5097.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM7
+#SName		LM7
+#ShapeName	Signal
+#File           LM7_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	1.34
+#Kfact           1.	
+#Lumi            5097.0
+#Type            susy
+#Color		1
+#
+#SAMPLE
+#Name		SUSY_LM8
+#SName		LM8
+#ShapeName	Signal
+#File           LM8_SUSY_sftsht_7TeV-pythia6.root
+#Xsection  	1.03
+#Kfact           1.	
+#Lumi            5097.0
+#Type            susy
+#Color		1
+#
+SAMPLE
+Name		SUSY_LM9
+SName		LM9
+ShapeName	Signal
+File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/SUSY-LM9-sftsht-8TeV-pythia6.root
+Xsection  	9.29
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+#SAMPLE
+#Name		SMS
+#SName		SUSY
+#ShapeName	Signal
+#File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/SMS-T1tttt-Mgluino-350to1200-mLSP-0to850-8TeV-Pythia6Z.root
+#Xsection  	10.56
+#Kfact           1.	
+#Lumi            5097.0
+#Type            susy
+#Color		1
+
+SAMPLE
+Name		SMST1
+SName		SUSY
+ShapeName	Signal
+File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop_2/SMS-T1tttt-Mgluino-350to1200-mLSP-0to850-8TeV-Pythia6Z.root
+Xsection  	10.56
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+
+SAMPLE
+Name		SMST2
+SName		SUSY
+ShapeName	Signal
+File    	PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop_2/SMS-T2tt-Mgluino-225to1200-mLSP-0to1000-8TeV-Pythia6Z.root
+Xsection  	10.56
+Kfact           1.	
+Lumi            5097.0
+Type            susy
+Color		1
+
+
+
+## --------- Data ---------------------------
+
+SAMPLE
+Name		Run2012A
+SName		HT-Data
+ShapeName	Data
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/HT-Run2012A-PromptReco-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		Run2012B
+SName		HT-Data
+ShapeName	Data
+File            PreICHEP_V03_06_00_MT2_V02-01-02Top_MassiveOnlyTop/JetHT-Run2012B-PromptReco-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
